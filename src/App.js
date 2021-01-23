@@ -1,25 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import './styles.js';
+import TimelineItem from "./components/TimelineItem";
+import Container from "./components/Container";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => (
+  <>
+  <h1>MY professional accomplishments Timeline over the years!</h1>
+  <h3>My future self will look back one day and say:</h3>
+    <p>"Wow... I remember the day when I did that! How happy I was to achieve that goal!".<br></br>
+     Our success is a journey, not a destination and I want to write down every goal that I achieve
+      along the way!!</p>
+
+  <Container></Container>
+  </>
+    
+);
 
 export default App;
